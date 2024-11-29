@@ -1,4 +1,4 @@
-Addition Example
+# Addition Example
 
 This example demonstrates how to verify an addition inside the zkVM.
 
