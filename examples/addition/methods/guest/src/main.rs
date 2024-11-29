@@ -14,6 +14,6 @@ fn main() {
     let b: u64 = env::read();
 
     // Compute the addition while being careful with integer overflow
-    let product = a.checked_add(b).expect("Integer overflow");
-    env::commit(&product);
+    let add = a.checked_add(b).expect("Integer overflow");
+    env::commit(&add);
 }
