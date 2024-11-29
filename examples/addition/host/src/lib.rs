@@ -10,6 +10,7 @@ use risc0_zkvm::{default_prover, ExecutorEnv, Receipt};
 
 // Compute the addition a+b inside the zkVM
 pub fn add(a: u64, b: u64) -> (Receipt, u64) {
+    // Step 2 (Host): Environment Setup  and Share Private Data as Input with the Guest
     let env = ExecutorEnv::builder()
         // Send a & b to the guest
         .write(&a)
@@ -19,6 +20,7 @@ pub fn add(a: u64, b: u64) -> (Receipt, u64) {
         .build()
         .unwrap();
 
+    // Step 4 (Host): Proof Generation and Validation
     // Obtain the default prover.
     let prover = default_prover();
 

@@ -1,6 +1,7 @@
 [workspace]
 resolver = "2"
 members = [
+  "addition",
   "bevy",
   "browser-verify",
   "c-guest/host",

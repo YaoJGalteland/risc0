@@ -3,6 +3,22 @@
 version = 3
 
 [[package]]
+name = "add"
+version = "0.1.0"
+dependencies = [
+ "add-methods",
+ "risc0-zkvm",
+ "tracing-subscriber 0.3.18",
+]
+
+[[package]]
+name = "add-methods"
+version = "0.1.0"
+dependencies = [
+ "risc0-build",
+]
+
+[[package]]
 name = "addchain"
 version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
