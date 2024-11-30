@@ -1,0 +1,10 @@
+[package]
+name = "chacha20_enc"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+
+[dependencies]
+chacha20 = "0.9.1"
+risc0-zkvm = { path = "../../../../risc0/zkvm", default-features = false, features = ["std"] }
