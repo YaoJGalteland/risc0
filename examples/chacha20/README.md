@@ -1,7 +1,7 @@
 # ChaCha20 Encryption Example
 
 This example demonstrates how to verify a ciphertext that has been encrypted using the ChaCha20 encryption algorithm within the zkVM. 
-The prover proves that they possess knowledge of the plaintext message and the encryption key used to produce the ChaCha20 ciphertext.
+The prover proves that it has knowledge of the plaintext message and the encryption key used to produce the ChaCha20 ciphertext.
 
 ## Quick Start
 
