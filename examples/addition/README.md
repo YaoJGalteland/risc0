@@ -4,7 +4,7 @@ This example demonstrates how to verify an addition inside the zkVM.
 
 ## Quick Start
 
-First, follow the [examples guide] to install dependencies and check out the correct version of the example.
+First, follow the [examples guide](https://dev.risczero.com/api/zkvm/examples/#running-the-examples) to install dependencies and check out the correct version of the example.
 
 Then, run the example with:
 

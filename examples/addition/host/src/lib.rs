@@ -1,4 +1,3 @@
-
 #![doc = include_str!("../../README.md")]
 
 use methods::ADD_ELF;
@@ -33,7 +32,10 @@ pub fn add(a: u64, b: u64) -> (Receipt, u64) {
     );
 
     // Report the addition
-    println!("I know the inputs of the addition {}, and I can prove it!", c);
+    println!(
+        "I know the inputs of the addition {}, and I can prove it!",
+        c
+    );
 
     (receipt, c)
 }
